@@ -7,3 +7,7 @@ python-docx==1.1.2
 reportlab==4.2.2
 pydantic==2.9.2
 requests==2.32.3
+# Explicitly pin these to stop the uninstall/reinstall loop
+rich==15.0.0
+markdown-it-py==4.0.0
+mdurl==0.1.2
